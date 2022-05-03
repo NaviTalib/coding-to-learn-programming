@@ -1,0 +1,55 @@
+Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border
+-------------------------------------------------------------------
+HTML Links - The target Attribute
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+------------------------------------------------------------------
+
+By default, a link will appear like this (in all browsers):
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+---------------------------------------------------
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+=======================================================================================================================
+Block-level Elements
+A block-level element always starts on a new line.
+
+A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+A block level element has a top and a bottom margin, whereas an inline element does not.
+
+Here are the block-level elements in HTML:
+
+<address> <article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt> <fieldset> <figcaption> 
+<figure> <footer> <form> <h1>-<h6> <header> <hr> <li> <main> <nav> <noscript> <ol> <p> <pre> 
+<section> <table> <tfoot> <ul> <video>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+An inline element does not start on a new line.
+
+An inline element only takes up as much width as necessary.
+
+Here are the inline elements in HTML:
+
+<a> <abbr> <acronym> <b> <bdo> <big> <br> <button> <cite> <code> <dfn> <em> <i> <img> <input>
+ <kbd> <label> <map> <object> <output> <q> <samp> <script> <select> <small> <span> <strong>
+ <sub> <sup> <textarea> <time> <tt> <var>
