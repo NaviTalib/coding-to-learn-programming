@@ -3,8 +3,18 @@
 //create entries
 localStorage.setItem('Name','Talib');
 localStorage.setItem('Name2','Ali');
+localStorage.setItem('Name3','Talib');
 
 //read entries
 let x  = localStorage.getItem('Name');
-console.log(x);
+// console.log(x);
+
+//update entries
+
+localStorage.setItem('Name','Navi');
+
+//delete entries
+
+localStorage.removeItem('Name2');
+
 
