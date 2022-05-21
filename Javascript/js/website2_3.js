@@ -18,7 +18,7 @@ document.getElementById("heading").addEventListener("click",function(e){
 })
 
 
-
+ 
 // Some properties of the event object used in the above program are:
 
 // type: This will tell the event type, here it is "click".
